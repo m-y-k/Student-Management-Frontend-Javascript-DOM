@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+}
+
+input {
+    border: 1px solid #797979;
+}
+
+table {
+    width: 97%;
+    border-collapse: collapse;
+    margin: 0rem 1.5rem;
+}
+  
+table thead tr th {
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+th {
+    border: 1px solid #797979;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #797979;
+    border-top: none;
+    border-bottom: none;
+    padding: 8px;
+}
+
+tr:last-child {
+    border-bottom: 1px solid #797979;
+  }
+
+table tbody tr td {
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.heading {
+    font-weight: 400;
+    padding: 1.5rem 0rem 0.4rem 1.5rem;
+    font-size: 2rem;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.input input {
+    width: 23.8rem;
+    height: 2rem;
+    margin: 0.8rem 1.5rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+
+.submit {
+    margin: 1.5rem;
+    width: 32.5rem;
+    margin-left: 1.8rem;
+    text-align: center;
+}
+
+.submit p {
+    color: black;
+    background-color: #FFFFFF;
+    padding-left: 15rem;
+    font-size: 1rem;
+    padding: 0.6rem;
+}
+
+.search input{
+    height: 2rem;
+    width: 95%;
+    margin: 2rem 1rem 3rem 1.5rem;
+    padding: 0.2rem;
+    padding-left: 1rem;
+}
+
+.actions img {
+    width: 1rem;
+}
+
+.changeBackgroundColor p {
+    color: white;
+    background-color: black;
+    border: 1px solid #797979;
+}
+
+#action_col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <p>Student Management CRUD</p>
+    </div>
+    <div class="input">
+        <div><input type="text" placeholder="Name" id="name"></div>
+        <div><input type="text" placeholder="Email" id="email"></div>
+        <div><input type="text" placeholder="GPA" id="gpa"></div>
+        <div><input type="text" placeholder="Age" id="age"></div>
+        <div><input type="text" placeholder="Degree" id="degree"></div>
+    </div>
+    <div class="submit" id="submit" onclick="addStudentData()">
+        <p>Add Student</p>
+    </div>
+
+    <div class="search" ><input type="text" id="search" placeholder="Search By Name,email or degree" onkeyup="searchData()"></div>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>GPA</th>
+                <th>Degree</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="action_col">
+                    <div class="degree"></div>
+                    <div class="actions"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="action_col">
+                    <div class="degree"></div>
+                    <div class="actions">
+                        <img src="" alt="" >
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="action_col">
+                    <div class="degree"></div>
+                    <div class="actions"></div>
+                </td>
+            </tr>
+            <tr>
+                <td><p></p></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="action_col">
+                    <div class="degree"></div>
+                    <div class="actions"></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
