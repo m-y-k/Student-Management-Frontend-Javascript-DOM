@@ -110,8 +110,8 @@ function renderData(students) {
             <td id="action_col">
                 <div class="degree">${student.degree}</div>
                 <div class="actions">
-                    <img src="/images/edit 1.png" alt="edit image" onclick='editStudent(${student.ID})'>
-                    <img src="/images/trash-2 1.png" alt="delete image" onclick='deleteStudent(${student.ID})'>
+                    <img src="images/edit1.png" alt="edit image" onclick='editStudent(${student.ID})'>
+                    <img src="images/trash-21.png" alt="delete image" onclick='deleteStudent(${student.ID})'>
                 </div>
             </td>
         `;
